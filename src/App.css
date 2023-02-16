@@ -1,38 +1,92 @@
-.App {
+
+form
+{
+  padding-top : 50px;
+} 
+.login h3
+{
+background-color: rgb(122, 227, 235);
+color:cornsilk;
+padding :50px;
+font-size:500% ;
+}
+.login p 
+{
+  color:blue;
+  font-size:150% ;
+}
+.field
+{
+  padding : 15px;
+}
+.field 
+{
+  margin-left : 425px ;
+  text-align: left;
+}
+.field button 
+{
+  margin-left: 165px;
+}
+#email
+{
+  margin-left : 40px;
+}
+#pwd
+{
+  margin-left : 145px;
+}
+.login button
+{
+  color:white;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.app
+{
+  background-image: url("./images/backgroundimage.jpg");
+  background-size: cover;
+  height:649px;
+  }
+.app h1
+{
   text-align: center;
+  color:rgb(250, 217, 30);
+  font-size: 60px;
+  text-shadow: 3px 2px 1px;
+ }
+.home label
+{
+  padding:25px;
+  color: rgb(34, 160, 233);
+  font-size: 15px;
+  font-weight: bolder;
+}
+.home button
+{
+  width: 55%;
+  margin-left: 55px;
+}
+.home Select 
+{
+  color:rgb(34, 160, 233);
+   font-size: 13px;
+  font-weight: bold;
+}
+.home Select option
+{
+  /* color:rgb(34, 160, 233); */
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import {BrowserRouter,Routes,Route} from 'react-router-dom';
+//import Hi from './Hi';
+//import SelectSearch from 'react-select-search';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ 
+     return(
+    <div className="app">
+      <h1>Weather App</h1>
+      <Home />  
+      {/* <Hi /> */}
+      
     </div>
   );
 }
